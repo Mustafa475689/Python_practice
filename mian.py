@@ -107,3 +107,36 @@ b = 3
 
 # for i in range(21):
 #     print(i)
+
+# for i in range (16,0,-1):
+#     print(i)
+
+# for i in range(5,51,5):
+#     print(i)
+
+# n = int(input("what number of table you want to print "))
+
+# for i in range(n,n*10+1,n):
+#     print(i)
+
+# nami = str(input("Write your name "))
+# # Length function is len()
+# for i in range(len(nami)):
+#     print(nami[i])
+
+# inte = int(input("Write an integer "))
+# for i in range(inte):   
+#     print("Hello world ")
+
+# n = int(input("natural numbers "))
+# for i in range(1,n+1,1):
+#     print(i)
+
+n = int(input("natural numbers "))
+# for i in range(n,0,-1):
+#      print(i)
+
+sum = 0
+for i in range(1, n+1):
+    sum += i
+    print(i)
