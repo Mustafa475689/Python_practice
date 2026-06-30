@@ -186,21 +186,70 @@ print("AOA")
 #     print(ex % 10)
 #     ex = ex // 10
 
-import random
-num = random.randint(1, 10)
-tries = 0
-while True:
-    you = int(input("Type your random number "))
-    if num == you:
-        tries += 1
-        print(f"you Won 🎉! your nubmer {you} matched correctly with {num}")
-        break
-    elif you < num:
-        tries += 1
-        print(f"Oops 🧐! your nubmer {you} is bit smaller to {num}")
-    elif you > num:
-        tries += 1
-        print(f"So Close 😮! your nubmer {you} is little higher to {num}")
-    else:
-        tries += 1
-        print(f"try again 😔! your nubmer {you} did not matched correctly with {num}")
+# import random
+# num = random.randint(1, 10)
+# tries = 0
+# while True:
+#     you = int(input("Type your random number "))
+#     if num == you:
+#         tries += 1
+#         print(f"you Won 🎉! your nubmer {you} matched correctly with {num}")
+#         break
+#     elif you < num:
+#         tries += 1
+#         print(f"Oops 🧐! your nubmer {you} is bit smaller to {num}")
+#     elif you > num:
+#         tries += 1
+#         print(f"So Close 😮! your nubmer {you} is little higher to {num}")
+#     else:
+#         tries += 1
+#         print(f"try again 😔! your nubmer {you} did not matched correctly with {num}")
+
+  ##############
+# Data Structure #
+  ##############
+# lists
+# tuples
+# dictionary
+# sets
+
+# Lists 
+l= [2, 3, 4, -5, -6, -7]
+
+# print("Negative elements are ")
+# for i in l:
+#     if i < 0 :
+#         print(i)
+# print("Positive elements are ")
+# for i in l:
+#     if i > 0 :
+#         print(i)
+
+# sum = 0 
+# for i in l:
+#     sum = sum + i 
+# print(sum)
+
+# larg = l[0]
+# for i in range(len(l)):
+#     if  l[i] > larg:
+#         larg = l[i]
+#         # Index = i   
+#         print(f"largest number is {l[i]}")
+
+# Tuples
+# t = (2,3,3,4)
+# tup = (2,)
+# print(tup)
+
+# sets
+# set = {1,2,3,4,5}
+# # set.pop()
+# # print(set)
+# set.clear()
+# print(set)
+
+s = {1,2,3}
+d = {4,5,6}
+u = s.union(d)
+print(u)
