@@ -1,10 +1,10 @@
 print("AOA")
 
 # type 
-name = "ajjo"
-print(type(name))
+# name = "ajjo"
+# print(type(name))
 
-v = 32j  # complex data type
+# v = 32j  # complex data type
 # Data Types #
 # List 
 # tupple
@@ -12,21 +12,21 @@ v = 32j  # complex data type
 # sets
 
 # unicode
-unicode =   "😂"
-print(ord(unicode))
+# unicode =   "😂"
+# print(ord(unicode))
 
 # Slicing 
-myName = "Mustafa Khan"
-print(myName[0:7:1])
-print(myName[8:12:1])
+# myName = "Mustafa Khan"
+# print(myName[0:7:1])
+# print(myName[8:12:1])
 
 # Type conversion
-a = 22
-a = str(22)
+# a = 22
+# a = str(22)
 
-# formated string
-print("hello my name is ",myName)
-print(f"My name is {myName}")
+# # formated string
+# print("hello my name is ",myName)
+# print(f"My name is {myName}")
 
 # Input 
 # age = input("Write your age here ")
@@ -37,8 +37,8 @@ print(f"My name is {myName}")
 # print(agee)
 
 # Arithmetic Operators
-a = 7
-b = 3
+# a = 7
+# b = 3
 
 # print(a + b)
 # print(a - b)
@@ -132,11 +132,75 @@ b = 3
 # for i in range(1,n+1,1):
 #     print(i)
 
-n = int(input("natural numbers "))
+# n = int(input("natural numbers "))
 # for i in range(n,0,-1):
 #      print(i)
 
-sum = 0
-for i in range(1, n+1):
-    sum += i
-    print(i)
+# sum = 0
+# for i in range(1, n+1):
+#     sum = sum + i
+# print(sum)
+
+# fact = 1
+# for i in range(1, n+1):
+#     fact = fact * i
+# print(f"The factorial is {fact}")
+
+# even = 0
+# odd = 0
+
+# for i in  range(1, n+1):
+#     if i%2 == 0:
+#         even = even + i 
+#     else:
+#        odd = odd + i
+
+# print(f"your even sum is {even} and odd sum is {odd}") 
+
+
+# count = 0
+# for i in range(1, n+1):
+#     if n % i == 0:
+#         count = count + 1
+# print(count)
+
+# if count == 2:
+#     print("your number is prime")
+# else:
+#     print("Poka 😂😂")
+
+# reverse 
+# c = "anas"
+# d = ""
+# for i in range(len(c)-1, -1, -1):
+#     d = d + (c[i])
+# print(d)
+
+# dum = 1
+# while dum <= 30:
+#         print(dum)
+#         dum = dum + 1
+
+# ex = 256
+# while ex > 0:
+#     print(ex % 10)
+#     ex = ex // 10
+
+import random
+num = random.randint(1, 10)
+tries = 0
+while True:
+    you = int(input("Type your random number "))
+    if num == you:
+        tries += 1
+        print(f"you Won 🎉! your nubmer {you} matched correctly with {num}")
+        break
+    elif you < num:
+        tries += 1
+        print(f"Oops 🧐! your nubmer {you} is bit smaller to {num}")
+    elif you > num:
+        tries += 1
+        print(f"So Close 😮! your nubmer {you} is little higher to {num}")
+    else:
+        tries += 1
+        print(f"try again 😔! your nubmer {you} did not matched correctly with {num}")
