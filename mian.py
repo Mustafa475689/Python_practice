@@ -249,7 +249,13 @@ l= [2, 3, 4, -5, -6, -7]
 # set.clear()
 # print(set)
 
-s = {1,2,3}
-d = {4,5,6}
-u = s.union(d)
+s = {1,2,3,4}
+d = {4,5,6,7}
+u = s.union(d)   # also known as u = s|d
+print(u) 
+u = s&d # also known as u = s.intersection(d)
+print(u)
+u = s-d #also known as u =  s.difference(d)
+print(u)
+u = s^d #also known as symetic difference
 print(u)
