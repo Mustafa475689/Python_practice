@@ -214,7 +214,7 @@ print("AOA")
 # sets
 
 # Lists 
-l= [2, 3, 4, -5, -6, -7]
+# l= [2, 3, 4, -5, -6, -7]
 
 # print("Negative elements are ")
 # for i in l:
@@ -287,3 +287,46 @@ l= [2, 3, 4, -5, -6, -7]
 # d3 = d.pop(2)
 # print(d3)
 # print(d)
+# dictionary questons 
+# 1) merg two pyhton dict
+# d = {1:10, 2:20, 3:30}
+# d2 = {4:40, 5:50}
+# for i in d2:
+#     d[i] = d2[i]
+#     print(d)
+# Sum
+# sum = 0
+# for i in d:
+#     sum = sum + d[1]
+#     print(sum)
+# Find frequency means konsa number kitni baar repeat hu rha ha 
+# l = [1,1,1,1,2,2,2,3,3,3,4,5,6,6,7,]
+
+# dee = {}
+# for i in l:
+#     if i in dee.keys():
+#         dee[i] += 1
+#     else:
+#         dee[i] = 1
+# print(dee) 
+# Combine two dictionaries adding common values by using variables on line number (292,293)
+# for i in d2:
+#     if i in d.keys():
+#         d[i] += d2[i]
+#     else:
+#         d[i] = d2[i]
+ 
+# print(d) 
+
+  ##################
+# Exception handling #
+  ##################
+# e =  int(input("Tell your number "))
+# try:
+#     print(10/0)
+# except Exception as err:
+#     print(f"sorry there is an err as {err}")
+# else:
+#     print("good there is no exception")
+# finally:
+#     print("I will run no matter it is")
