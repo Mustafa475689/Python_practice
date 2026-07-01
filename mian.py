@@ -330,3 +330,17 @@ print("AOA")
 #     print("good there is no exception")
 # finally:
 #     print("I will run no matter it is")
+
+# Raise exception #
+# age = int(input("type your age "))
+
+# try:
+#   if age < 10 or age > 18:
+#     raise ValueError("your age must be between 10 and 18") # creating an error that called value error
+#   else:
+#     print("welcome to the club")
+
+# except Exception as err:
+#   print(f"An error accured as {err}")
+
+# print("The club will start soon")
