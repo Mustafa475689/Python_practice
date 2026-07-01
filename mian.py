@@ -249,13 +249,41 @@ l= [2, 3, 4, -5, -6, -7]
 # set.clear()
 # print(set)
 
-s = {1,2,3,4}
-d = {4,5,6,7}
-u = s.union(d)   # also known as u = s|d
-print(u) 
-u = s&d # also known as u = s.intersection(d)
-print(u)
-u = s-d #also known as u =  s.difference(d)
-print(u)
-u = s^d #also known as symetic difference
-print(u)
+# s = {1,2,3,4}
+# d = {4,5,6,7}
+# u = s.union(d)   # also known as u = s|d
+# print(u) 
+# u = s&d # also known as u = s.intersection(d)
+# print(u)
+# u = s-d #also known as u =  s.difference(d)
+# print(u)
+# u = s^d #also known as symetic difference
+# print(u)
+
+# dictionary
+# d = {1:"Khan", 2:21}
+# print(d[1])
+# d[1] = 20 #updating
+# print(d[1])
+# d[3] = 22 # creating
+# print(d[3])
+# del d[3]
+# print(d)
+# dictionary traversing
+# d = {1:10, 2:20, 3:30, 4:40, 5:50}
+# for i in d.values:
+#     print(i)
+# dictionary methods
+# d2 = d.copy()
+# d2[6] = 600
+# print(d)
+# print(d2)
+# d2.clear()
+# print(d2)
+# d2 = d.get(2)
+# print(d2)
+# print(d.items())
+# help(dict)
+# d3 = d.pop(2)
+# print(d3)
+# print(d)
