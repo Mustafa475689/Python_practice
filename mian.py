@@ -344,3 +344,15 @@ print("AOA")
 #   print(f"An error accured as {err}")
 
 # print("The club will start soon")
+
+  ##################
+# File handling #
+  ##################
+
+# with open("main.py", "r", encoding="utf-8") as p:
+#   print(p.read())
+
+# Create file 
+w = open("Spider.txt", "a") # now just run it '
+w.write(" We are Venom")
+w.close()
